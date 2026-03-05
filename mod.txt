@@ -1,0 +1,3 @@
+curl -L -o models\smollm-135m-q4.gguf https://huggingface.co/QuantFactory/SmolLM-135M-GGUF/resolve/main/SmolLM-135M.Q4_K_M.gguf
+
+powershell -Command "Invoke-WebRequest https://huggingface.co/QuantFactory/SmolLM-135M-GGUF/resolve/main/SmolLM-135M.Q4_K_M.gguf -OutFile models\smollm-135m-q4.gguf"
